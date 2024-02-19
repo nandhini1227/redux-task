@@ -1,0 +1,86 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Article container */
+  article {
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Cart item image */
+  .cart_box img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  .cart_img {
+    display: flex;
+    width: 300px;
+  }
+  
+  /* Cart item description */
+  .cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+    width: 300px;
+  }
+  
+  /* Cart box container */
+  .cart_box {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 5px;
+    transition: background-color 0.3s ease; /* Add color change transition */
+  }
+  
+  /* Cart buttons */
+  .cart_box div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    width: 300px;
+    transition: transform 0.3s ease; /* Add a subtle button scale effect */
+  }
+  
+  .cart_box div:nth-child(3) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add color change transition */
+  }
+  
+  .cart_box div:nth-child(3) button:hover {
+    background-color: darkseagreen;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  /* Total section */
+  .total {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total span:nth-child(1),
+  .total span:nth-child(2) {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color 0.3s ease; /* Add color change transition */
+  }
+  
+  .total span:nth-child(2):hover {
+    color: crimson; /* Change total amount color on hover */
+  }
+  
